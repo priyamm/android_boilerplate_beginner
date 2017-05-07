@@ -28,6 +28,7 @@ import timber.log.Timber;
 public class GitHubApplication extends Application {
 
     private GitHubService gitHubService;
+    private OkHttpClient okHttpClient;
     @Override
     public void onCreate() {
         super.onCreate();
@@ -45,7 +46,7 @@ public class GitHubApplication extends Application {
         cacheFile.mkdir();
         Cache cache = new Cache(cacheFile, 10 * 1000 * 1000);
 
-        OkHttpClient okHttpClient = new OkHttpClient.Builder()
+        okHttpClient = new OkHttpClient.Builder()
                 .addInterceptor(loggingInterceptor)
                 .cache(cache)
                 .build();
@@ -66,5 +67,8 @@ public class GitHubApplication extends Application {
                 .baseUrl("https://api.github.com/")
                 .build();
 
+    }
+    public OkHttpClient getOkHttpClient() {
+        return this.okHttpClient;
     }
 }

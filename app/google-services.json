@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469596530589",
+    "project_id": "sincere-stack-166812"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469596530589:android:de2e27e16ea37936",
+        "android_client_info": {
+          "package_name": "com.example.priyamgupta.android_boilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469596530589-mca27j8adrv47armolcdt64bi54qf2rc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "469596530589-9ehbl6s9tlji3phfluuigo3176atte64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.priyamgupta.android_boilerplate",
+            "certificate_hash": "4d55d4bb30fb25be74cb6260e4d48672672c3312"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAh3LXL8a3SMyaJld9ApZK431u4pYbrvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
